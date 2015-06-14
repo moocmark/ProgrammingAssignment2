@@ -1,6 +1,6 @@
 ## These functions are used together to efficiently find the
 ## inverse of a matrix (the inverse is calculated once and then
-## cached.
+## cached).
 ## 
 ## Usage example:
 ##  
@@ -14,10 +14,10 @@
 ## makeCacheMatrix accepts a matrix parameter (assumed to be invertable) 
 ## it returns a list of functions:
 ##
-## set - sets the matrix and clears the inverse matrix
-## get - returns the matrix
-## setinverse - pass in the matrix and set (and return) the inverse matrix
-## getinverse - return the inverse matrix
+##  set - sets the matrix and clears the inverse matrix
+##  get - returns the matrix
+##  setinverse - pass in the matrix and set (and return) the inverse matrix
+##  getinverse - return the inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
